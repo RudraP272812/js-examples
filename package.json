@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "express": "^4.21.2",
+    "http-server": "^14.1.1"
+  },
+  "scripts": {
+    "index": "http-server . -p 9000",
+    "basic-modules-example": "http-server module-examples/basic-modules -p 9000",
+    "start": "node server.js"
+  },
+  "name": "js-examples",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This repository contains examples of JavaScript usage.",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdn/js-examples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdn/js-examples/issues"
+  },
+  "homepage": "https://github.com/mdn/js-examples#readme"
+}
