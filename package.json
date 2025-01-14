@@ -4,11 +4,12 @@
     "http-server": "^14.1.1"
   },
   "scripts": {
+    "_rudra_patel_lab2": "http-server . -p 4000",
     "index": "http-server . -p 9000",
     "basic-modules-example": "http-server module-examples/basic-modules -p 9000",
     "start": "node server.js"
   },
-  "name": "js-examples",
+  "name": "r-patel",
   "version": "1.0.0",
   "type": "module",
   "description": "This repository contains examples of JavaScript usage.",
